@@ -12,4 +12,21 @@ interface UserDao {
 
     @Insert
     fun insertAll(bills: List<User>)
+    
 }
+/* 
+@Dao
+interface UserDao {
+    @get:Query("SELECT * FROM user")
+    val allUsers: List<User>
+
+    @get:Query("SELECT * FROM user")
+    val all: LiveData<List<User>>
+
+    @Query("SELECT * FROM user")
+    fun getAllUsersRx(): Observable<List<User>>
+
+    @Insert
+    fun insertAll(bills: List<User>)
+}
+*/
