@@ -9,3 +9,8 @@ Steps to implement Room in Project-
     2. entity package for Models/Beans
         2.1 always set primary key
     3. AppDatabase class to initialise database
+
+Extra Material -
+1. MainActivity -> shows database data when button is clicked
+2. LiveDataObservableActivity -> shows data whenever new records are inserted using LiveData
+3. RxJavaObservableActivity -> shows data whenever new records are inserted using RxJava
