@@ -8,10 +8,6 @@ import androidx.room.RoomDatabase
 import gyanani.harish.basicroomexample.database.dao.UserDao
 import gyanani.harish.basicroomexample.database.entity.User
 
-/**
- * Created by axier on 7/2/18.
- */
-
 @Database(entities = [(User::class)], version = 1)
 abstract class AppDatabase : RoomDatabase() {
 
